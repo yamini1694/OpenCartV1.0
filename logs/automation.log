@@ -94,3 +94,13 @@
 			----Test Failed------
 2025-11-30 16:44:37 DEBUG TC001_AccountRegistrationTest:53 -
 			-----Debug Log-------
+2025-11-30 16:46:22 INFO  TC001_AccountRegistrationTest:24 -
+			-------Starting TC001_AccountRegistrationTest--------
+2025-11-30 16:46:23 ERROR TC001_AccountRegistrationTest:52 -
+			----Test Failed------
+2025-11-30 16:46:23 DEBUG TC001_AccountRegistrationTest:53 -
+			-----Debug Log-------
+2025-11-30 16:46:50 INFO  TC001_AccountRegistrationTest:24 -
+			-------Starting TC001_AccountRegistrationTest--------
+2025-11-30 16:46:51 INFO  TC001_AccountRegistrationTest:32 -
+			...providinmg customer details....
