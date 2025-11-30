@@ -16,6 +16,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
@@ -44,8 +45,13 @@ public class BaseClass {
 		
 		switch (browser.toLowerCase())
 		{
-		case "chrome" : 
-			driver= new ChromeDriver();
+		case "chrome" :
+			ChromeOptions options = new ChromeOptions();
+			options.addArguments("--ignore-certificate-errors");
+			options.addArguments("--allow-insecure-localhost");
+			options.addArguments("--disable-web-security");
+			
+			driver= new ChromeDriver(options);
 			break;
 			
 		case "edge":
