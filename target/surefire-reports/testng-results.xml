@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-11-30T16:38:00 IST" name="Suite" finished-at="2025-11-30T16:38:43 IST" duration-ms="42914">
+  <suite started-at="2025-12-01T00:35:42 IST" name="Suite" finished-at="2025-12-01T00:36:23 IST" duration-ms="40142">
     <groups>
-      <group name="TDDtest">
-        <method signature="TC003_LoginTestUsingTDD.Verify_LoginTDD(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginTestUsingTDD@7f0eb4b4]" name="Verify_LoginTDD" class="testCases.TC003_LoginTestUsingTDD"/>
-      </group> <!-- TDDtest -->
     </groups>
-    <test started-at="2025-11-30T16:38:00 IST" name="Test" finished-at="2025-11-30T16:38:43 IST" duration-ms="42914">
-      <class name="testCases.TC003_LoginTestUsingTDD">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginTestUsingTDD@7f0eb4b4]" started-at="2025-11-30T16:38:01 IST" name="setup" finished-at="2025-11-30T16:38:09 IST" duration-ms="8808" status="PASS">
+    <test started-at="2025-12-01T00:35:42 IST" name="Test" finished-at="2025-12-01T00:36:23 IST" duration-ms="40142">
+      <class name="testCases.TC006_CheckoutTest_EndToEnd">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC006_CheckoutTest_EndToEnd@7f0eb4b4]" started-at="2025-12-01T00:35:43 IST" name="setup" finished-at="2025-12-01T00:35:48 IST" duration-ms="5509" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -26,95 +23,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Verify_LoginTDD(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginTestUsingTDD@7f0eb4b4]" started-at="2025-11-30T16:38:16 IST" name="Verify_LoginTDD" data-provider="logindata" finished-at="2025-11-30T16:38:19 IST" duration-ms="3060" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[yam@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Killer]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Valid]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="endToEndTest()[pri:0, instance:testCases.TC006_CheckoutTest_EndToEnd@7f0eb4b4]" started-at="2025-12-01T00:35:48 IST" name="endToEndTest" finished-at="2025-12-01T00:36:22 IST" duration-ms="34088" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Verify_LoginTDD -->
-        <test-method signature="Verify_LoginTDD(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginTestUsingTDD@7f0eb4b4]" started-at="2025-11-30T16:38:19 IST" name="Verify_LoginTDD" data-provider="logindata" finished-at="2025-11-30T16:38:30 IST" duration-ms="10758" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[abc@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[yam]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Invalid]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_LoginTDD -->
-        <test-method signature="Verify_LoginTDD(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginTestUsingTDD@7f0eb4b4]" started-at="2025-11-30T16:38:30 IST" name="Verify_LoginTDD" data-provider="logindata" finished-at="2025-11-30T16:38:31 IST" duration-ms="1471" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[yamini@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Killer]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Valid]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_LoginTDD -->
-        <test-method signature="Verify_LoginTDD(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginTestUsingTDD@7f0eb4b4]" started-at="2025-11-30T16:38:31 IST" name="Verify_LoginTDD" data-provider="logindata" finished-at="2025-11-30T16:38:42 IST" duration-ms="10895" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[admin@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[abc]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Invalid]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_LoginTDD -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC003_LoginTestUsingTDD@7f0eb4b4]" started-at="2025-11-30T16:38:42 IST" name="tearDown" finished-at="2025-11-30T16:38:43 IST" duration-ms="535" status="PASS">
+        </test-method> <!-- endToEndTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC006_CheckoutTest_EndToEnd@7f0eb4b4]" started-at="2025-12-01T00:36:22 IST" name="tearDown" finished-at="2025-12-01T00:36:23 IST" duration-ms="237" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC003_LoginTestUsingTDD -->
+      </class> <!-- testCases.TC006_CheckoutTest_EndToEnd -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

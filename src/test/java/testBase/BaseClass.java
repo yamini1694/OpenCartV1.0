@@ -47,9 +47,7 @@ public class BaseClass {
 		{
 		case "chrome" :
 			ChromeOptions options = new ChromeOptions();
-			options.addArguments("--ignore-certificate-errors");
-			options.addArguments("--allow-insecure-localhost");
-			options.addArguments("--disable-web-security");
+			options.setAcceptInsecureCerts(true);
 			
 			driver= new ChromeDriver(options);
 			break;

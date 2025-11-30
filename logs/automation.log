@@ -104,3 +104,35 @@
 			-------Starting TC001_AccountRegistrationTest--------
 2025-11-30 16:46:51 INFO  TC001_AccountRegistrationTest:32 -
 			...providinmg customer details....
+2025-11-30 16:53:31 INFO  TC001_AccountRegistrationTest:24 -
+			-------Starting TC001_AccountRegistrationTest--------
+2025-11-30 16:53:32 INFO  TC001_AccountRegistrationTest:32 -
+			...providinmg customer details....
+2025-11-30 16:53:32 ERROR TC001_AccountRegistrationTest:52 -
+			----Test Failed------
+2025-11-30 16:53:32 DEBUG TC001_AccountRegistrationTest:53 -
+			-----Debug Log-------
+2025-11-30 17:55:47 INFO  TC001_AccountRegistrationTest:24 -
+			-------Starting TC001_AccountRegistrationTest--------
+2025-11-30 17:55:49 INFO  TC001_AccountRegistrationTest:32 -
+			...providinmg customer details....
+2025-11-30 17:55:52 INFO  TC001_AccountRegistrationTest:47 -
+			...Validating message....
+2025-11-30 17:55:52 INFO  TC001_AccountRegistrationTest:60 -
+			-------Finished TC001_AccountRegistrationTest--------
+2025-11-30 17:56:00 INFO  TC002_LoginTest:28 -
+			----Entering email and password-----
+2025-11-30 17:56:01 INFO  TC002_LoginTest:32 -
+			---Click Login----
+2025-11-30 18:10:31 INFO  TC001_AccountRegistrationTest:24 -
+			-------Starting TC001_AccountRegistrationTest--------
+2025-11-30 18:10:33 INFO  TC001_AccountRegistrationTest:32 -
+			...providinmg customer details....
+2025-11-30 18:10:36 INFO  TC001_AccountRegistrationTest:47 -
+			...Validating message....
+2025-11-30 18:10:36 INFO  TC001_AccountRegistrationTest:60 -
+			-------Finished TC001_AccountRegistrationTest--------
+2025-11-30 18:10:43 INFO  TC002_LoginTest:28 -
+			----Entering email and password-----
+2025-11-30 18:10:43 INFO  TC002_LoginTest:32 -
+			---Click Login----

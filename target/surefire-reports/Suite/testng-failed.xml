@@ -8,13 +8,13 @@
     <parameter name="OS" value="Windows"/>
     <parameter name="Browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC003_LoginTestUsingTDD">
+      <class name="testCases.TC006_CheckoutTest_EndToEnd">
         <methods>
+          <include name="endToEndTest"/>
           <include name="tearDown"/>
-          <include name="Verify_LoginTDD" invocation-numbers="0 1"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testCases.TC003_LoginTestUsingTDD -->
+      </class> <!-- testCases.TC006_CheckoutTest_EndToEnd -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

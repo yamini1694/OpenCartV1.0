@@ -45,13 +45,16 @@ public class TC001_AccountRegistrationTest extends BaseClass{
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		
 		logger.info("...Validating message....");
-		Assert.assertEquals(regPage.getConfirmationMessage(), "Your Account Has Been Created!");
+		String actual = regPage.getConfirmationMessage();
+		System.out.println("Actual = " + actual); 	
+		Assert.assertEquals(actual, "Your Account Has Been Created!");
 		}
 		catch(Exception e)
 		{
-			logger.error("----Test Failed------");
+			
 			logger.debug("-----Debug Log-------");
-			Assert.fail();
+			logger.error("Test Failed due to: " + e.getMessage());
+		    Assert.fail(e.getMessage());
 		}
 		
 		logger.info("-------Finished TC001_AccountRegistrationTest--------");
